@@ -1,6 +1,6 @@
 # Spring Boot, MySQL, JPA, Hibernate Rest API Tutorial
 
-Build Restful CRUD API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Hibernate.
+Build Restful CRUD API for a simple CURD application using Spring Boot, Mysql, JPA and Hibernate.
 
 ## Requirements
 
@@ -48,20 +48,14 @@ The app will start running at <http://localhost:8080>.
 
 The app defines following CRUD APIs.
 
-    GET /api/notes
+    GET /api/customer
     
-    POST /api/notes
+    POST /api/customer
     
-    GET /api/notes/{noteId}
+    GET /api/customer/{customerId}
     
-    PUT /api/notes/{noteId}
+    PUT /api/customer/{customerId}
     
-    DELETE /api/notes/{noteId}
+    DELETE /api/customer/{customerId}
 
 You can test them using postman or any other rest client.
-
-## Learn more
-
-You can find the tutorial for this application on my blog -
-
-<https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/>
