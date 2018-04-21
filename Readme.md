@@ -15,7 +15,7 @@ Build Restful CRUD API for a simple CURD application using Spring Boot, Mysql, J
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+git clone https://github.com/srvinoth/springboot-curd-api.git
 ```
 
 **2. Create Mysql database**
