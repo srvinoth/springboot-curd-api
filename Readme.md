@@ -20,7 +20,7 @@ git clone https://github.com/srvinoth/springboot-curd-api.git
 
 **2. Create Mysql database**
 ```bash
-create database notes_app
+create database curd_db
 ```
 
 **3. Change mysql username and password as per your installation**
@@ -33,7 +33,7 @@ create database notes_app
 
 ```bash
 mvn package
-java -jar target/easy-notes-1.0.0.jar
+java -jar target/springboot-curd-api-0.0.1.jar
 ```
 
 Alternatively, you can run the app without packaging it using -
